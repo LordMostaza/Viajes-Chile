@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <!--Css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Viajes Chile</title>
+</head>
+
+<body>
+
+    <!-- Modal -->
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark maincolor sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand ltext fs-4" href="#"><img class="navlogo" src="./assets/img/viajes.svg">Viajes Chile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active fw-bold" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link fw-bold" href="#About">Quienes somos</a>
+                    <a class="nav-link fw-bold" href="#Destacados">Destacados</a>
+                    <a class="nav-link fw-bold" href="#Ofertas">Ofertas</a>
+                    <a class="nav-link fw-bold" href="#Contacto">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin NAVBAR -->
+
+    <!-- Carousel-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Fin Carousel-->
+
+    <!--¿Quienes Somos?-->
+    <section id="About" class="container bg-white rounder d-none d-sm-none d-md-block pb-3">
+        <h2 class="text-center mt-3 pt-2 font-weight-bold p-3 "><span> ¿Quiénes somos?</span></h2>
+        <div class="container separacion"></div>
+        <section class="container my-4">
+            <section class="row">
+                <article class="col-4">
+                    <div class="card">
+                        <div class="card-body maincolor">
+                            <h2 class="text-center"><i class="fas fa-users text-light"></i></h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Bienvenidos</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nihil mollitia accusantium sequi nulla accusamus cum vel numquam cupiditate repellat est vero incidunt tempore facere ea enim laboriosam aliquid, ipsum consequuntur
+                                tempora! Inventore, assumenda cupiditate alias corrupti voluptas hic eum.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-4">
+                    <div class="card">
+                        <div class="card-body maincolor">
+                            <h2 class="text-center"><i class="fas fa-handshake text-light"></i></h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Misión</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nihil mollitia accusantium sequi nulla accusamus cum vel numquam cupiditate repellat est vero incidunt tempore facere ea enim laboriosam aliquid, ipsum consequuntur
+                                tempora! Inventore, assumenda cupiditate alias corrupti voluptas hic eum.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-4">
+                    <div class="card">
+                        <div class="card-body maincolor">
+                            <h2 class="text-center"><i class="fas fa-globe-americas text-light"></i></h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Visión</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nihil mollitia accusantium sequi nulla accusamus cum vel numquam cupiditate repellat est vero incidunt tempore facere ea enim laboriosam aliquid, ipsum consequuntur
+                                tempora! Inventore, assumenda cupiditate alias corrupti voluptas hic eum.</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </section>
+
+    <!--Destacados-->
+    <section class="container pb-3 " id="Destacados">
+        <h2 class="text-center mt-3 pt-2 font-weight-bold p-3 "><span> Destacados</span></h2>
+        <div class="container separacion"></div>
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="card ml-2">
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="card-1">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3">
+                <div class="card ml-2">
+                    <img src="assets/img/card2.jpg" class="card-img-top" alt="card-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p id="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3">
+                <div class="card ml-2">
+                    <img src="assets/img/card3.jpg" class="card-img-top" alt="card-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p id="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3">
+                <div class="card ml-2">
+                    <img src="assets/img/card4.jpg" class="card-img-top" alt="card-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p id="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Barra Ofertas -->
+    <div class="container-fluid barra">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center align-items-center py-4 text-light">
+                <i class="fas fa-suitcase-rolling h3 pe-1"></i>
+                <h2 class="fw-bolder m-0">Ofertas de temporada</h2>
+
+            </div>
+        </div>
+    </div>
+    <!-- Fin Barra Ofertas -->
+
+    <!-- Ofertas -->
+    <section class="container pb-3 mt-4" id="Ofertas">
+        <section class="row">
+            <div class="col-12 col-md-6">
+                <div class="card border__">
+                    <img src="./assets/img/temuco.jpg" class="card-top " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center h3"><strong>Temuco</strong> </h5>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+                    Comprar Oferta
+                  </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card border__">
+                    <img src="./assets/img/la serena.jpg" class="card-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center h3"><strong>La Serena</strong></h5>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+                  Comprar Oferta
+                </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Button trigger modal -->
+    <div class="modalb">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Inscribete para mas ofertas
+</button>
+    </div>
+    <!--Fin Ofertas-->
+
+    <!--Formulario-->
+    <section id="contacto">
+        <div class="container-fluid mt-5 mb-5">
+            <h2 class="text-center">Contacto</h2>
+            <div data-tf-widget="i4HyeXW4" data-tf-opacity="99" data-tf-iframe-props="title=Contact Form" style="width:100%;height:400px;"></div>
+            <script src="//embed.typeform.com/next/embed.js"></script>
+        </div>
+    </section>
+    <!--Fin Formulario-->
+
+
+    <!--Footer-->
+    <footer id="Contacto" class="container-fluid footer text-center px-4 py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 text-left">
+                </div>
+                <div class="row justify-content-around" style="font-size: 24px;">
+                    <h1 class=" my-auto text-light">VIAJES CHILE</h1>
+                    <ul class="list-inline list-unstyled inline-block py-3 ml-5 my-auto">
+                        <li class="list-inline-item"><a href="https://github.com/"><i class="fab fa-github-square fa-lg data-container" data-content="github" style="color: #ffffff;"></a></i>
+                        </li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg data-container"  data-content="linkedin" style="color: #ffffff;"></i></a></li>
+                        <li class="list-inline-item"><a href="https://twitter.com/"><i class="fab fa-twitter-square fa-lg data-container"  data-content="twitter" style="color: #ffffff;"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-lg data-container"  data-content="facebook" style="color: #ffffff;"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Cierre Footer-->
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- BOOTSTRAP SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

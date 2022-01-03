@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.navlogo {
+    height: 2.5rem;
+}
+
+.ltext {
+    font-family: 'Lobster', cursive;
+    padding-left: 35px;
+}
+
+.maincolor {
+    background-color: #2a0a80;
+}
+
+.border__ {
+    border: none;
+}
+
+.barra {
+    background-color: #2a0a80;
+}
+
+.separacion {
+    border-top: 2px solid #2a0a80;
+    height: 2px;
+    width: 100%;
+    padding-bottom: 35px;
+}
+
+.modalb {
+    padding-left: 41rem;
+}
+
+.footer {
+    background: #2a0a80;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
